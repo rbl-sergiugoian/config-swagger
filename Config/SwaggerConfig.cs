@@ -13,6 +13,7 @@ public static class SwaggerConfig
             options.SwaggerDoc("v1", new OpenApiInfo
             {
                 Title = "test api title",
+                Description = "Added description",
                 Version = "v1"
             });
         });
