@@ -23,6 +23,7 @@ app.UseHttpsRedirection();
 // c3 branch2
 app.UseAuthorization();
 
+// c4
 app.MapControllers();
 
 app.Run();
