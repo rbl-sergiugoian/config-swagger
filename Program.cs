@@ -9,6 +9,7 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
+// swagger docs
 app.UseApiDocumentation();
 
 if (app.Environment.IsDevelopment())
