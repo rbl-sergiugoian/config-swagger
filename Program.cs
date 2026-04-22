@@ -17,6 +17,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+// c2 branch2
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
