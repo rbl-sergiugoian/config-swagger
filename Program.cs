@@ -2,6 +2,7 @@ using swager.Config;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// c1
 builder.Services.AddApiDocumentation();
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
