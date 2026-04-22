@@ -20,6 +20,7 @@ if (app.Environment.IsDevelopment())
 // c2 branch2
 app.UseHttpsRedirection();
 
+// c3 branch2
 app.UseAuthorization();
 
 app.MapControllers();
